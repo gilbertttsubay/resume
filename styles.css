@@ -1,0 +1,237 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* font-family: 'DM Mono', monospace;
+font-family: 'Josefin Sans', sans-serif; */
+
+/* Menu */
+.topnav-right {
+    
+}
+/* End Menu */
+
+/* Section Intro */
+#section-intro {
+    margin: 100px 0;
+    text-align: center;
+}
+
+#section-intro h2 {
+    font-family: 'DM Mono', monospace;
+    font-size:3.2rem;
+    color: #f7f7f7;
+}
+
+#section-intro h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.4rem;
+    color: #f7f7f7;
+}
+
+.intro {
+    background-color: #162447!important;
+    height: 200px;
+    padding-top: 20px;
+    width: 80%;
+}
+.intro-2 {
+    background-color: #e43f5a;
+    height: 200px;
+    width: 80%;
+    padding-top: 20px;
+}
+
+/* Section Intro end */
+
+/* Section Hobby */
+#section-hobby {
+    background-color: #cceabb;
+    padding-bottom:  150px;
+    text-align: center;
+}
+
+#section-hobby h2 {
+    margin-bottom: 60px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 3rem;
+    color: #ff427f;
+
+}
+
+#section-hobby h3 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fc8210;
+}
+
+#section-hobby img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+/* Section Hobby End*/
+
+/* Section Job Experience */
+
+#section-job-experience {
+    background-color: #ffd8a6;
+    color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 70px;
+}
+#section-job-experience h2 {
+    text-align: center;
+    padding: 30px 0px;
+    color: #162447;
+    font-size: 3rem;
+    font-family: 'DM Mono', monospace;
+}
+#section-job-experience h3 {
+    padding: 20px 0px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#section-job-experience p {
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#section-job-experience img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.experience-1,.experience-2,.experience-3 {
+    height: 300px;
+    width: 300px;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 10%;
+}
+.experience-1 {
+    background-color: #63b7af;
+}
+
+.experience-2 {
+    background-color: #fc8210;
+}
+.experience-3 {
+    background-color: #fa9191;
+}
+/* Section Job Experience End */
+
+/* Section My Skill */
+#section-job-skill {
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #fff;
+    color: #85a392;
+}
+#section-job-skill h2 {
+    font-size: 3rem;
+    font-family: 'DM Mono', monospace;
+}
+#section-job-skill h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+#section-job-skill img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.skill {
+    margin-top: 20px;
+}
+/* Section My Skill End*/
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #ffecc7;
+    padding: 20px 0px;
+    color: #162447;
+}
+footer img {
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer h2 {
+    font-size: 3rem;
+    font-family: 'DM Mono', monospace;
+}
+footer p, footer a {
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+footer a {
+    text-decoration: none;
+    color: #162447;
+}
+
+/* Footer End */
+
+@media (min-width: 613px) and (max-width: 989px) {
+    #section-intro h2 {
+        font-family: 'DM Mono', monospace;
+        font-size:2rem;
+        color: #f7f7f7;
+    }
+    
+    #section-intro h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2rem;
+        color: #f7f7f7;
+    }
+
+    #section-hobby img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        margin-bottom: 40px;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 395px) and (max-width: 567px) {
+    #section-intro h2 {
+        font-family: 'DM Mono', monospace;
+        font-size:2.7rem;
+        color: #f7f7f7;
+    }
+    
+    #section-intro h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2.4rem;
+        color: #f7f7f7;
+    }
+    #section-intro {
+      margin: 0px;
+    }
+}
+
+    .menu {
+        position: sticky !important;
+        z-index: 1;
+        background-color: #ffe9c5;
+    }
+
+    nav a {
+        font-family: 'DM Mono', monospace;
+        font-size: 4rem;
+    }
+
+    nav li a{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1rem;
+    }
